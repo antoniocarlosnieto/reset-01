@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7439413-ae1b-48ae-a48e-46855f09299e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aplicacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Calculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Comparador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicio3/AplicacaoNotas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicio3/GerenciaNotas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
     </list>
@@ -35,7 +39,27 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.AplicacaoNotas">
+    <configuration name="Aplicacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aplicacao" />
+      <module name="aula-01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AplicacaoNotas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercicio3.AplicacaoNotas" />
+      <module name="aula-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exercicio3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="aula-01" />
@@ -45,6 +69,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AplicacaoNotas" />
+        <item itemvalue="Application.Aplicacao" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -63,22 +89,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1583587965464">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1583612198604">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583587965464" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1583587965464">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583612198604" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1583612198604">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583587965464" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1583587965464">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583612198604" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1583612198603">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583587965464" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1583587965464">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583612198603" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1583612198604">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583587965464" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583612198604" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1583587367946">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
