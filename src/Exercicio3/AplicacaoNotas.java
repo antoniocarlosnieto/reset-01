@@ -1,6 +1,6 @@
 package Exercicio3;
 
-//Criação da Classe
+//Criação da Classe Principal
 public class AplicacaoNotas {
     //Criação da Classe Main
     public static void main(String[] args) {
