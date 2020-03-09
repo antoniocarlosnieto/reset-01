@@ -14,6 +14,9 @@ public class Calculadora {
         return valorUm / valorDois;
     }
 
+    //TESTE DE SINCRONIA GIT HUB
+    
+
 
 
 }
