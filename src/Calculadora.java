@@ -15,7 +15,7 @@ public class Calculadora {
     }
 
     //TESTE DE SINCRONIA GIT HUB
-    
+
 
 
 

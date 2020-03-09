@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7439413-ae1b-48ae-a48e-46855f09299e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/TemaAula01/AppRpg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TemaAula01/Armas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TemaAula01/Classes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TemaAula01/Magias.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TemaAula01/PoderesDivinos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculadora.java" afterDir="false" />
     </list>
@@ -21,6 +26,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Ynme5RmwYVUHZtd0JsyilbBdbh" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
