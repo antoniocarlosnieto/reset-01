@@ -1,32 +1,36 @@
 package TemaAula01;
 
 public class Armas {
-        class EspadaCurta {
-            String nome;
-            int poder;
 
-            EspadaCurta(String nome, int poder) {
-                this.nome = nome;
-                this.poder = poder;
-            }
+    //CRIANDO A ARMA
+    static class EspadaCurta {
+        String nomeEspadaCurta;
+        int poderEspadaCurta;
+
+        EspadaCurta(String nomeEspadaCurta, int poderEspadaCurta) {
+            this.nomeEspadaCurta = nomeEspadaCurta;
+            this.poderEspadaCurta = poderEspadaCurta;
         }
-        class EspadaLonga {
-            String nome;
-            int poder;
+
+       }
+
+        static class EspadaLonga {
+            String nomeEspadaLonga;
+            int poderEspadaLonga;
 
             EspadaLonga(String nome, int poder) {
-                this.nome = nome;
-                this.poder = poder;
+                this.nomeEspadaLonga = nome;
+                this.poderEspadaLonga = poder;
             }
         }
-        class Machado {
-            String nome;
-            int poder;
+
+        static class Machado {
+            String nomeMachado;
+            int poderMachado;
 
             Machado(String nome, int poder) {
-                this.nome = nome;
-                this.poder = poder;
+                this.nomeMachado = nome;
+                this.poderMachado = poder;
             }
         }
     }
-
