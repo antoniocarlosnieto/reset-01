@@ -1,7 +1,7 @@
 package TemaAula01;
 
 public class Magias {
-    class FireBolt {
+    static class FireBolt {
         String nome;
         int poder;
         int custoMana;
@@ -12,7 +12,7 @@ public class Magias {
             this.custoMana = custoMana;
         }
     }
-    class DeepIce {
+    static class DeepIce {
         String nome;
         int poder;
         int custoMana;
@@ -23,7 +23,7 @@ public class Magias {
             this.custoMana = custoMana;
         }
     }
-    class Hurricane {
+    static class Hurricane {
         String nome;
         int poder;
         int custoMana;

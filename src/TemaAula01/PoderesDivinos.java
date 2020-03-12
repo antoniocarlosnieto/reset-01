@@ -1,18 +1,18 @@
 package TemaAula01;
 
 public class PoderesDivinos {
-    class JumpofFaith {
+    static class JumpOfFaith {
         String nome;
         int poder;
         int custoMana;
 
-        JumpofFaith(String nome, int poder, int custoMana) {
+        JumpOfFaith(String nome, int poder, int custoMana) {
             this.nome = nome;
             this.poder = poder;
             this.custoMana = custoMana;
         }
     }
-    class HolyGun {
+    static class HolyGun {
         String nome;
         int poder;
         int custoMana;
@@ -23,7 +23,7 @@ public class PoderesDivinos {
             this.custoMana = custoMana;
         }
     }
-    class SacredWhisper {
+    static class SacredWhisper {
         String nome;
         int poder;
         int custoMana;

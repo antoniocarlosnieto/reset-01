@@ -32,52 +32,52 @@ public class Classes {
     }
     //CRIANDO A CLASSE MAGO
     static class Mago {
-        String nome;
-        int vida;
-        int ataque;
-        int defesa;
-        int mana;
+        String nomeMago;
+        int vidaMago;
+        int ataqueMago;
+        int defesaMago;
+        int manaMago;
 
-        Mago(String nome, int vida, int ataque, int defesa, int mana) {
-            this.nome = nome;
-            this.vida = vida;
-            this.ataque = ataque;
-            this.defesa = defesa;
-            this.mana = mana;
+        Mago(String nomeMago, int vidaMago, int ataqueMago, int defesaMago, int manaMago) {
+            this.nomeMago = nomeMago;
+            this.vidaMago = vidaMago;
+            this.ataqueMago = ataqueMago;
+            this.defesaMago = defesaMago;
+            this.manaMago = manaMago;
         }
 
     }
     //CRIANDO A CLASSE FEITICEIRO
     static class Feiticeiro {
-        String nome;
-        int vida;
-        int ataque;
-        int defesa;
-        int mana;
+        String nomeFeiticeiro;
+        int vidaFeiticeiro;
+        int ataqueFeiticeiro;
+        int defesaFeiticeiro;
+        int manaFeiticeiro;
 
-        Feiticeiro(String nome, int vida, int ataque, int defesa, int mana) {
-            this.nome = nome;
-            this.vida = vida;
-            this.ataque = ataque;
-            this.defesa = defesa;
-            this.mana = mana;
+        Feiticeiro(String nomeFeiticeiro, int vidaFeiticeiro, int ataqueFeiticeiro, int defesaFeiticeiro, int manaFeiticeiro) {
+            this.nomeFeiticeiro = nomeFeiticeiro;
+            this.vidaFeiticeiro = vidaFeiticeiro;
+            this.ataqueFeiticeiro = ataqueFeiticeiro;
+            this.defesaFeiticeiro = defesaFeiticeiro;
+            this.manaFeiticeiro = manaFeiticeiro;
         }
 
     }
     //CRIANDO A CLASSE DRUIDA
     static class Druida {
-        String nome;
-        int vida;
-        int ataque;
-        int defesa;
-        int fe;
+        String nomeDruida;
+        int vidaDruida;
+        int ataqueDruida;
+        int defesaDruida;
+        int feDruida;
 
-        Druida(String nome, int vida, int ataque, int defesa, int fe) {
-            this.nome = nome;
-            this.vida = vida;
-            this.ataque = ataque;
-            this.defesa = defesa;
-            this.fe = fe;
+        Druida(String nomeDruida, int vidaDruida, int ataqueDruida, int defesaDruida, int feDruida) {
+            this.nomeDruida = nomeDruida;
+            this.vidaDruida = vidaDruida;
+            this.ataqueDruida = ataqueDruida;
+            this.defesaDruida = defesaDruida;
+            this.feDruida = feDruida;
         }
 
     }
@@ -99,25 +99,4 @@ public class Classes {
 
     }
 
-    /*
-    //CRIANDO AS INTERAÇÕES DO GUERREIRO
-    int ataqueGuerreiroGuerreiro(String nomeGuerreiro, int ataqueGuerreiro, int defesaGuerreiro, int poderArma ) {
-        return ataqueGuerreiro * poderArma - defesaGuerreiro;
-    }
-    int ataqueGuerreiroBarbaro(int ataqueGuerreiro, int defesaBarbaro, int poderArma){
-        return ataqueGuerreiro * poderArma - defesaBarbaro;
-    }
-    int ataqueGuerreiroMago(int ataqueGuerreiro, int defesaMago, int poderArma){
-        return ataqueGuerreiro * poderArma - defesaMago;
-    }
-    int ataqueGuerreirofeiticeiro(int ataqueGuerreiro, int defesaFeiticeiro, int poderArma){
-        return ataqueGuerreiro * poderArma - defesaFeiticeiro;
-    }
-    int ataqueGuerreiroDruida(int ataqueGuerreiro, int defesaDruida, int poderArma){
-        return ataqueGuerreiro * poderArma - defesaDruida;
-    }
-    int ataqueGuerreiroClerigo(int ataqueGuerreiro, int defesaClerigo, int poderArma){
-        return ataqueGuerreiro * poderArma - defesaClerigo;
-    }
-*/
     }
