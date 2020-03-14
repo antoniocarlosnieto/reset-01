@@ -1,4 +1,4 @@
-package TemaAula01;
+package Aula01.TemaAula01;
 
 public class Armas {
 

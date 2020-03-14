@@ -1,4 +1,6 @@
-//Classe Calculadora
+package Aula01;
+
+//Classe Aula01.Calculadora
 public class Calculadora {
     //Declaração do Método
     int somar(int valorUm, int valorDois) {

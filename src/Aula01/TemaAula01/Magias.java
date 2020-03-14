@@ -1,39 +1,41 @@
-package TemaAula01;
+package Aula01.TemaAula01;
 
-public class PoderesDivinos {
-    static class JumpOfFaith {
+public class Magias {
+    static class FireBolt {
         String nome;
         int poder;
         int custoMana;
 
-        JumpOfFaith(String nome, int poder, int custoMana) {
+        FireBolt(String nome, int poder, int custoMana) {
             this.nome = nome;
             this.poder = poder;
             this.custoMana = custoMana;
         }
     }
-    static class HolyGun {
+    static class DeepIce {
         String nome;
         int poder;
         int custoMana;
 
-        HolyGun(String nome, int poder, int custoMana) {
+        DeepIce(String nome, int poder, int custoMana) {
             this.nome = nome;
             this.poder = poder;
             this.custoMana = custoMana;
         }
     }
-    static class SacredWhisper {
+    static class Hurricane {
         String nome;
         int poder;
         int custoMana;
 
-        SacredWhisper(String nome, int poder, int custoMana) {
+        Hurricane(String nome, int poder, int custoMana) {
             this.nome = nome;
             this.poder = poder;
             this.custoMana = custoMana;
         }
     }
+
+
 
 
 }

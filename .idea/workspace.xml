@@ -2,12 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7439413-ae1b-48ae-a48e-46855f09299e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula02/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula02/Herancas/Aereo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula02/Herancas/AppHerancas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula02/Herancas/Aviao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula02/Herancas/Maritimo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula02/Herancas/Submarino.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula02/Herancas/Terrestre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula02/Herancas/Trem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula02/Herancas/Veiculo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TemaAula01/AppRpg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TemaAula01/AppRpg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TemaAula01/Batalhas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TemaAula01/Batalhas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TemaAula01/Classes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TemaAula01/Classes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TemaAula01/Magias.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TemaAula01/Magias.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TemaAula01/PoderesDivinos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TemaAula01/PoderesDivinos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aplicacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01/Aplicacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01/Calculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Comparador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01/Comparador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercicio3/AplicacaoNotas.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/Exercicio3/AplicacaoNotas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercicio3/GerenciaNotas.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/Exercicio3/GerenciaNotas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TemaAula01/AppRpg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01/TemaAula01/AppRpg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TemaAula01/Armas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01/TemaAula01/Armas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TemaAula01/Batalhas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01/TemaAula01/Batalhas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TemaAula01/Classes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01/TemaAula01/Classes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TemaAula01/Magias.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01/TemaAula01/Magias.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TemaAula01/PoderesDivinos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01/TemaAula01/PoderesDivinos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,20 +59,26 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.AppRpg">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\etienne\Desktop\CWI Preparação\Treinamento Reset Aula 1\reset-01\src\Aula01" />
+      <recent name="C:\Users\etienne\Desktop\CWI Preparação\Treinamento Reset Aula 1\reset-01\out" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AppHerancas">
     <configuration name="Aplicacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aplicacao" />
+      <option name="MAIN_CLASS_NAME" value="Aula01.Aplicacao" />
       <module name="aula-01" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="AplicacaoNotas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercicio3.AplicacaoNotas" />
+      <option name="MAIN_CLASS_NAME" value="Aula01.TemaAula01.Exercicio3.AplicacaoNotas" />
       <module name="aula-01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exercicio3.*" />
+          <option name="PATTERN" value="Aula01.TemaAula01.Exercicio3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,18 +87,31 @@
       </method>
     </configuration>
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="App" />
+      <option name="MAIN_CLASS_NAME" value="Aula01.App" />
       <module name="aula-01" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppRpg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TemaAula01.AppRpg" />
+    <configuration name="AppHerancas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aula02.Herancas.AppHerancas" />
       <module name="aula-01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TemaAula01.*" />
+          <option name="PATTERN" value="Aula02.Herancas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppRpg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aula01.TemaAula01.AppRpg" />
+      <module name="aula-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Aula01.TemaAula01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,6 +121,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AppHerancas" />
         <item itemvalue="Application.AppRpg" />
         <item itemvalue="Application.Aplicacao" />
         <item itemvalue="Application.AplicacaoNotas" />
@@ -106,22 +143,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="428" key="GridCell.Tab.0.bottom" timestamp="1583985213499">
+    <state x="457" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1584203205263">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="428" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583985213499" />
-    <state width="1323" height="428" key="GridCell.Tab.0.center" timestamp="1583985213499">
+    <state x="457" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1584203205263" />
+    <state width="1323" height="141" key="GridCell.Tab.0.bottom" timestamp="1584204469726">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="428" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583985213499" />
-    <state width="1323" height="428" key="GridCell.Tab.0.left" timestamp="1583985213499">
+    <state width="1323" height="141" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584204469726" />
+    <state width="1323" height="141" key="GridCell.Tab.0.center" timestamp="1584204469726">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="428" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583985213499" />
-    <state width="1323" height="428" key="GridCell.Tab.0.right" timestamp="1583985213499">
+    <state width="1323" height="141" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584204469726" />
+    <state width="1323" height="141" key="GridCell.Tab.0.left" timestamp="1584204469725">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="428" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583985213499" />
+    <state width="1323" height="141" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584204469725" />
+    <state width="1323" height="141" key="GridCell.Tab.0.right" timestamp="1584204469726">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="141" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584204469726" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1583717675421">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -130,5 +171,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583586844522" />
+    <state x="425" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1584194107031">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="425" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1584194107031" />
   </component>
 </project>
