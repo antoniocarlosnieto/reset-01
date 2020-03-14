@@ -1,4 +1,4 @@
-package Aula02.Herancas;
+package Herancas;
 
 public class Terrestre extends Veiculo {
     double numeroDeRodas;

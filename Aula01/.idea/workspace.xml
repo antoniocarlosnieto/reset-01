@@ -2,29 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7439413-ae1b-48ae-a48e-46855f09299e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula02/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula02/Herancas/Aereo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula02/Herancas/AppHerancas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula02/Herancas/Aviao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula02/Herancas/Maritimo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula02/Herancas/Submarino.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula02/Herancas/Terrestre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula02/Herancas/Trem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula02/Herancas/Veiculo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aplicacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01/Aplicacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01/Calculadora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Comparador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01/Comparador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercicio3/AplicacaoNotas.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/Exercicio3/AplicacaoNotas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercicio3/GerenciaNotas.java" beforeDir="false" afterPath="$PROJECT_DIR$/out/Exercicio3/GerenciaNotas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TemaAula01/AppRpg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01/TemaAula01/AppRpg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TemaAula01/Armas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01/TemaAula01/Armas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TemaAula01/Batalhas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01/TemaAula01/Batalhas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TemaAula01/Classes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01/TemaAula01/Classes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TemaAula01/Magias.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01/TemaAula01/Magias.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TemaAula01/PoderesDivinos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01/TemaAula01/PoderesDivinos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula02/Aluno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula02/Herancas/Aereo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Herancas/Aereo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula02/Herancas/AppHerancas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Herancas/AppHerancas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula02/Herancas/Aviao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Herancas/Aviao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula02/Herancas/Maritimo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Herancas/Maritimo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula02/Herancas/Submarino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Herancas/Submarino.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula02/Herancas/Terrestre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Herancas/Terrestre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula02/Herancas/Trem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Herancas/Trem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula02/Herancas/Veiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Herancas/Veiculo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +52,7 @@
       <recent name="C:\Users\etienne\Desktop\CWI Preparação\Treinamento Reset Aula 1\reset-01\out" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AppHerancas">
+  <component name="RunManager" selected="Application.AppRpg">
     <configuration name="Aplicacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Aula01.Aplicacao" />
       <module name="aula-01" />
@@ -94,11 +81,11 @@
       </method>
     </configuration>
     <configuration name="AppHerancas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aula02.Herancas.AppHerancas" />
+      <option name="MAIN_CLASS_NAME" value="Herancas.AppHerancas" />
       <module name="aula-01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Aula02.Herancas.*" />
+          <option name="PATTERN" value="Herancas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,8 +108,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AppHerancas" />
         <item itemvalue="Application.AppRpg" />
+        <item itemvalue="Application.AppHerancas" />
         <item itemvalue="Application.Aplicacao" />
         <item itemvalue="Application.AplicacaoNotas" />
         <item itemvalue="Application.App" />
@@ -147,22 +134,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="457" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1584203205263" />
-    <state width="1323" height="141" key="GridCell.Tab.0.bottom" timestamp="1584204469726">
+    <state width="1323" height="140" key="GridCell.Tab.0.bottom" timestamp="1584204996911">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="141" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584204469726" />
-    <state width="1323" height="141" key="GridCell.Tab.0.center" timestamp="1584204469726">
+    <state width="1323" height="140" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584204996911" />
+    <state width="1323" height="140" key="GridCell.Tab.0.center" timestamp="1584204996911">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="141" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584204469726" />
-    <state width="1323" height="141" key="GridCell.Tab.0.left" timestamp="1584204469725">
+    <state width="1323" height="140" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584204996911" />
+    <state width="1323" height="140" key="GridCell.Tab.0.left" timestamp="1584204996910">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="141" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584204469725" />
-    <state width="1323" height="141" key="GridCell.Tab.0.right" timestamp="1584204469726">
+    <state width="1323" height="140" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584204996910" />
+    <state width="1323" height="140" key="GridCell.Tab.0.right" timestamp="1584204996911">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="141" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584204469726" />
+    <state width="1323" height="140" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584204996911" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1583717675421">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

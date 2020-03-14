@@ -1,4 +1,4 @@
-package Aula02.Herancas;
+package Herancas;
 
 class Veiculo {
         String nome;
