@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7439413-ae1b-48ae-a48e-46855f09299e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula02/Aluno.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula02/Herancas/Aereo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Herancas/Aereo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula02/Herancas/AppHerancas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Herancas/AppHerancas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula02/Herancas/Aviao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Herancas/Aviao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula02/Herancas/Maritimo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Herancas/Maritimo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula02/Herancas/Submarino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Herancas/Submarino.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula02/Herancas/Terrestre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Herancas/Terrestre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula02/Herancas/Trem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Herancas/Trem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula02/Herancas/Veiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Herancas/Veiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula02/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula02/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula02/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula02/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemaAula01/AppRpg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemaAula01/Armas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemaAula01/Batalhas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemaAula01/Classes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemaAula01/Magias.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemaAula01/PoderesDivinos.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,10 +26,10 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1Ynme5RmwYVUHZtd0JsyilbBdbh" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -39,15 +39,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Aula02" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\etienne\Desktop\CWI Preparação\Treinamento Reset Aula 1\reset-01\Aula01\src\Aula01" />
+      <recent name="C:\Users\etienne\Desktop\CWI Preparação\Treinamento Reset Aula 1\reset-01\Aula01" />
       <recent name="C:\Users\etienne\Desktop\CWI Preparação\Treinamento Reset Aula 1\reset-01\src\Aula01" />
       <recent name="C:\Users\etienne\Desktop\CWI Preparação\Treinamento Reset Aula 1\reset-01\out" />
     </key>
@@ -109,10 +110,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.AppRpg" />
-        <item itemvalue="Application.AppHerancas" />
-        <item itemvalue="Application.Aplicacao" />
-        <item itemvalue="Application.AplicacaoNotas" />
         <item itemvalue="Application.App" />
+        <item itemvalue="Application.Aplicacao" />
+        <item itemvalue="Application.AppHerancas" />
+        <item itemvalue="Application.AplicacaoNotas" />
       </list>
     </recent_temporary>
   </component>
@@ -134,26 +135,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="457" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1584203205263" />
-    <state width="1323" height="140" key="GridCell.Tab.0.bottom" timestamp="1584204996911">
+    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1584278405380">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="140" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584204996911" />
-    <state width="1323" height="140" key="GridCell.Tab.0.center" timestamp="1584204996911">
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584278405380" />
+    <state width="1323" height="140" key="GridCell.Tab.0.bottom" timestamp="1584278373740">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="140" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584204996911" />
-    <state width="1323" height="140" key="GridCell.Tab.0.left" timestamp="1584204996910">
+    <state width="1323" height="140" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584278373740" />
+    <state width="1323" height="140" key="GridCell.Tab.0.center" timestamp="1584278373740">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="140" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584204996910" />
-    <state width="1323" height="140" key="GridCell.Tab.0.right" timestamp="1584204996911">
+    <state width="1323" height="140" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584278373740" />
+    <state width="1323" height="140" key="GridCell.Tab.0.left" timestamp="1584278373740">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="140" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584204996911" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1583717675421">
+    <state width="1323" height="140" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584278373740" />
+    <state width="1323" height="140" key="GridCell.Tab.0.right" timestamp="1584278373740">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583717675421" />
+    <state width="1323" height="140" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584278373740" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1584278028502">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584278028502" />
     <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1583586844522">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

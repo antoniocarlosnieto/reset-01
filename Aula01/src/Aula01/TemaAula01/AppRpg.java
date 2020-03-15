@@ -14,6 +14,8 @@ public class AppRpg {
         Classes.Druida Druida = new Classes.Druida("Mousesack, o Druida", 550, 10, 20, 450);
         Classes.Clerigo Clerigo = new Classes.Clerigo("Skellige, o Clérigo", 450, 10, 20, 450);
 
+                        //teste
+
         // ARMAS
         Armas.EspadaCurta EspadaCurta = new Armas.EspadaCurta("Espada Curta", 5);
         Armas.EspadaLonga EspadaLonga = new Armas.EspadaLonga("Espada Longa", 10);
