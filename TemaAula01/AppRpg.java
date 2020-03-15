@@ -9,23 +9,23 @@ public class AppRpg {
         Classes.Barbaro Barbaro = new Classes.Barbaro("Dandelion, o Barbaro", 900, 20, 10);
         // MAGICOS
         Classes.Mago Mago = new Classes.Mago("Ciri, a Maga", 500, 10, 5, 500);
-        Classes.Feiticeiro Feiticeiro = new Classes.Feiticeiro("Yennefer, a Feiticeira",600,10,20,500);
+        Classes.Feiticeiro Feiticeiro = new Classes.Feiticeiro("Yennefer, a Feiticeira", 600, 10, 20, 500);
         // RELIGIOSOS
-        Classes.Druida Druida = new Classes.Druida("Mousesack, o Druida",550,10,20,450);
-        Classes.Clerigo Clerigo = new Classes.Clerigo("Skellige, o Clérigo",450, 10, 20, 450);
+        Classes.Druida Druida = new Classes.Druida("Mousesack, o Druida", 550, 10, 20, 450);
+        Classes.Clerigo Clerigo = new Classes.Clerigo("Skellige, o Clérigo", 450, 10, 20, 450);
 
         // ARMAS
         Armas.EspadaCurta EspadaCurta = new Armas.EspadaCurta("Espada Curta", 5);
         Armas.EspadaLonga EspadaLonga = new Armas.EspadaLonga("Espada Longa", 10);
         Armas.Machado Machado = new Armas.Machado("Machado", 15);
         // MAGIAS
-        Magias.FireBolt FireBolt = new Magias.FireBolt("Fire Bolt",10,50);
-        Magias.DeepIce DeepIce = new Magias.DeepIce("Deep Ice", 15,70);
-        Magias.Hurricane Hurricane = new Magias.Hurricane("Hurricane",20,100);
+        Magias.FireBolt FireBolt = new Magias.FireBolt("Fire Bolt", 10, 50);
+        Magias.DeepIce DeepIce = new Magias.DeepIce("Deep Ice", 15, 70);
+        Magias.Hurricane Hurricane = new Magias.Hurricane("Hurricane", 20, 100);
         // PODERES DIVINOS
-        PoderesDivinos.JumpOfFaith JumpOfFaith = new PoderesDivinos.JumpOfFaith("Jump of Faith",12,85);
-        PoderesDivinos.SacredWhisper SacredWhisper = new PoderesDivinos.SacredWhisper("Sacred Whisper",18,90);
-        PoderesDivinos.HolyGun HolyGun = new PoderesDivinos.HolyGun("Holy Gun",25,110);
+        PoderesDivinos.JumpOfFaith JumpOfFaith = new PoderesDivinos.JumpOfFaith("Jump of Faith", 12, 85);
+        PoderesDivinos.SacredWhisper SacredWhisper = new PoderesDivinos.SacredWhisper("Sacred Whisper", 18, 90);
+        PoderesDivinos.HolyGun HolyGun = new PoderesDivinos.HolyGun("Holy Gun", 25, 110);
 
 
         //CÓDIGO
@@ -203,6 +203,6 @@ public class AppRpg {
     }
 
 
-    }
+}
 
 

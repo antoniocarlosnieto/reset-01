@@ -4,7 +4,7 @@ package Aula01;
 public class Aplicacao {
 
     //Declarando do Método
-    public static void main(String[] args){
+    public static void main(String[] args) {
         //Criando Instancia Aula01.Calculadora, nome do objeto sendo criado como novo
         Calculadora antonioCalculando = new Calculadora();
         //Guardando o retorno da operação dentro da variavel somatorio.
@@ -24,10 +24,10 @@ public class Aplicacao {
 
         //Aula01.Comparador
         Comparador antonioComparando = new Comparador();
-        boolean resultadoMenoQue = antonioComparando.menorQue(68,54);
+        boolean resultadoMenoQue = antonioComparando.menorQue(68, 54);
         System.out.println(resultadoMenoQue);
-        }
     }
+}
 
 
 

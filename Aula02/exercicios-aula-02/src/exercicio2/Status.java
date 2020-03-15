@@ -1,6 +1,6 @@
 package exercicio2;
 
-public enum Status{
+public enum Status {
     DISPONIVEL("Disponivel"),
     EM_USO("Em Uso"),
     EMPRESTADO("Emprestado");

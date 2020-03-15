@@ -16,6 +16,7 @@ public class Classes {
         }
 
     }
+
     //CRIANDO A CLASSE BARBARO
     static class Barbaro {
         String nomeBarbaro;
@@ -30,6 +31,7 @@ public class Classes {
             this.defesaBarbaro = defesaBarbaro;
         }
     }
+
     //CRIANDO A CLASSE MAGO
     static class Mago {
         String nomeMago;
@@ -47,6 +49,7 @@ public class Classes {
         }
 
     }
+
     //CRIANDO A CLASSE FEITICEIRO
     static class Feiticeiro {
         String nomeFeiticeiro;
@@ -64,6 +67,7 @@ public class Classes {
         }
 
     }
+
     //CRIANDO A CLASSE DRUIDA
     static class Druida {
         String nomeDruida;
@@ -81,6 +85,7 @@ public class Classes {
         }
 
     }
+
     //CRIANDO A CLASSE CLERIGO
     static class Clerigo {
         String nomeClerigo;
@@ -99,4 +104,4 @@ public class Classes {
 
     }
 
-    }
+}

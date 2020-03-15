@@ -9,12 +9,12 @@ public class AplicacaoNotas {
         //Validando o Status do Aluno chamando o Método
         boolean nota = aluno.aprovado();
         //If para frase correta.
-          if (nota) {
+        if (nota) {
             // Se Aprovado
             System.out.println("O aluno " + aluno.nomeAluno + " com nota final " + aluno.nota + " esta aprovado");
         } else {
             // Se Reprovado
-            System.out.println("O aluno "+aluno.nomeAluno +" com nota final " + aluno.nota + " esta reprovado");
+            System.out.println("O aluno " + aluno.nomeAluno + " com nota final " + aluno.nota + " esta reprovado");
         }
 
     }

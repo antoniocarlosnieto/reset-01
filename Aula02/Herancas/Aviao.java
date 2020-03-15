@@ -16,6 +16,5 @@ public class Aviao extends Aereo {
         super(nome, velocidadeMaxima, lotacaoMaxima, altitudeMaxima);
 
 
-
     }
 }

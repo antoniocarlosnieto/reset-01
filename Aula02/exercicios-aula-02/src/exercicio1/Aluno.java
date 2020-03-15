@@ -10,7 +10,8 @@ public class Aluno {
     void obterNota() {
 
     }
-    private void montarCola () {
+
+    private void montarCola() {
 
     }
 

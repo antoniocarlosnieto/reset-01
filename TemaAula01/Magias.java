@@ -12,6 +12,7 @@ public class Magias {
             this.custoMana = custoMana;
         }
     }
+
     static class DeepIce {
         String nome;
         int poder;
@@ -23,6 +24,7 @@ public class Magias {
             this.custoMana = custoMana;
         }
     }
+
     static class Hurricane {
         String nome;
         int poder;
@@ -34,8 +36,6 @@ public class Magias {
             this.custoMana = custoMana;
         }
     }
-
-
 
 
 }

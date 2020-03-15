@@ -8,7 +8,8 @@ public class GerenciaNotas {
         this.nomeAluno = nomeAluno;
         this.nota = nota;
     }
-    boolean aprovado (){
+
+    boolean aprovado() {
         return nota >= 7;
 
 

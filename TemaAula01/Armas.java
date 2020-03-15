@@ -12,25 +12,25 @@ public class Armas {
             this.poderEspadaCurta = poderEspadaCurta;
         }
 
-       }
+    }
 
-        static class EspadaLonga {
-            String nomeEspadaLonga;
-            int poderEspadaLonga;
+    static class EspadaLonga {
+        String nomeEspadaLonga;
+        int poderEspadaLonga;
 
-            EspadaLonga(String nome, int poder) {
-                this.nomeEspadaLonga = nome;
-                this.poderEspadaLonga = poder;
-            }
-        }
-
-        static class Machado {
-            String nomeMachado;
-            int poderMachado;
-
-            Machado(String nome, int poder) {
-                this.nomeMachado = nome;
-                this.poderMachado = poder;
-            }
+        EspadaLonga(String nome, int poder) {
+            this.nomeEspadaLonga = nome;
+            this.poderEspadaLonga = poder;
         }
     }
+
+    static class Machado {
+        String nomeMachado;
+        int poderMachado;
+
+        Machado(String nome, int poder) {
+            this.nomeMachado = nome;
+            this.poderMachado = poder;
+        }
+    }
+}

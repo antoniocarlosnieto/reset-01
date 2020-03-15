@@ -12,6 +12,7 @@ public class PoderesDivinos {
             this.custoMana = custoMana;
         }
     }
+
     static class HolyGun {
         String nome;
         int poder;
@@ -23,6 +24,7 @@ public class PoderesDivinos {
             this.custoMana = custoMana;
         }
     }
+
     static class SacredWhisper {
         String nome;
         int poder;

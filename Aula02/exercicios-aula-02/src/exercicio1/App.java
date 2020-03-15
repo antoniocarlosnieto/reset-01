@@ -6,9 +6,8 @@ public class App {
         Aluno aluno = new Aluno("Antonio");
         Turma turma = new Turma();
 
-       // aluno.montarCola(); //proibição de acesso
+        // aluno.montarCola(); //proibição de acesso
         //aluno.nome = "Joao"; //proibições de acesso
-
 
 
     }

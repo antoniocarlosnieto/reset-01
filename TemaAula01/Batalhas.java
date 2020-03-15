@@ -7,9 +7,7 @@ public class Batalhas {
         return ataqueAgressor * poderDaArma - defesaDefensor;
 
 
-
-
-}
+    }
 
 
 }
