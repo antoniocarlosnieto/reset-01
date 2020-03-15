@@ -1,6 +1,24 @@
 package Aula01.TemaAula01;
 
-public class PoderesDivinos {
+public class PoderDivino {
+
+    String nome;
+
+    double poderAtaque;
+
+    double custoFe;
+
+    PoderDivino(String nome, double poderAtaque, double custoFe) {
+        this.nome = nome;
+        this.poderAtaque = poderAtaque;
+        this.custoFe = custoFe;
+    }
+}
+
+
+
+/*
+public class PoderDivino {
     static class JumpOfFaith {
         String nome;
         int poder;
@@ -39,3 +57,4 @@ public class PoderesDivinos {
 
 
 }
+*/

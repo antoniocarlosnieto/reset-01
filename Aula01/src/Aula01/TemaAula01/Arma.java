@@ -1,7 +1,16 @@
 package Aula01.TemaAula01;
 
-public class Armas {
+class Arma{
+        String nome;
+        int poderAtaque;
 
+        Arma(String nome, int poderAtaque) {
+            this.nome = nome;
+            this.poderAtaque = poderAtaque;
+        }
+
+    }
+/*
     //CRIANDO A ARMA
     static class EspadaCurta {
         String nomeEspadaCurta;
@@ -34,3 +43,7 @@ public class Armas {
         }
     }
 }
+
+
+
+ */

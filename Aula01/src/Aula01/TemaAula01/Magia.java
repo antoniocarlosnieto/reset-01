@@ -1,6 +1,22 @@
 package Aula01.TemaAula01;
 
-public class Magias {
+
+public class Magia {
+
+    String nome;
+
+    double poderAtaque;
+
+    double custoMana;
+
+    Magia(String nome, double poderAtaque, double custoMana) {
+        this.nome = nome;
+        this.poderAtaque = poderAtaque;
+        this.custoMana = custoMana;
+    }
+}
+
+/*public class Magia {
     static class FireBolt {
         String nome;
         int poder;
@@ -38,4 +54,6 @@ public class Magias {
     }
 
 
+
 }
+*/

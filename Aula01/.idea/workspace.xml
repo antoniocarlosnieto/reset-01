@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7439413-ae1b-48ae-a48e-46855f09299e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Aula02/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Aula02/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Aula02/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Aula02/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemaAula01/AppRpg.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemaAula01/Armas.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemaAula01/Batalhas.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemaAula01/Classes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemaAula01/Magias.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TemaAula01/PoderesDivinos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemaAula01/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +29,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Aula02" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -99,7 +97,7 @@
       <module name="aula-01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Aula01.TemaAula01.*" />
+          <option name="PATTERN" value="TemaCWI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,26 +133,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="457" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1584203205263" />
+    <state x="484" y="255" width="398" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1584296671967">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="484" y="255" width="398" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1584296671967" />
     <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1584278405380">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584278405380" />
-    <state width="1323" height="140" key="GridCell.Tab.0.bottom" timestamp="1584278373740">
+    <state width="1323" height="155" key="GridCell.Tab.0.bottom" timestamp="1584304121589">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="140" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584278373740" />
-    <state width="1323" height="140" key="GridCell.Tab.0.center" timestamp="1584278373740">
+    <state width="1323" height="155" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584304121589" />
+    <state width="1323" height="155" key="GridCell.Tab.0.center" timestamp="1584304121589">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="140" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584278373740" />
-    <state width="1323" height="140" key="GridCell.Tab.0.left" timestamp="1584278373740">
+    <state width="1323" height="155" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584304121589" />
+    <state width="1323" height="155" key="GridCell.Tab.0.left" timestamp="1584304121589">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="140" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584278373740" />
-    <state width="1323" height="140" key="GridCell.Tab.0.right" timestamp="1584278373740">
+    <state width="1323" height="155" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584304121589" />
+    <state width="1323" height="155" key="GridCell.Tab.0.right" timestamp="1584304121589">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="140" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584278373740" />
+    <state width="1323" height="155" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584304121589" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1584278028502">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -163,9 +165,31 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583586844522" />
+    <state x="387" y="265" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1584282074108">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="387" y="265" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1584282074108" />
+    <state x="454" y="84" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584283108775">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="454" y="84" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1584283108775" />
     <state x="425" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1584194107031">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="425" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1584194107031" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1584294225876">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1584294225876" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TemaCWI/SimulacaoCWI.java</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
