@@ -2,7 +2,7 @@ package Aula01.TemaAula01;
 
     public class HomemDeArmas extends Personagem {
 
-        public HomemDeArmas(final String nome, final double vida, final double ataque, final double defesa) {
+         HomemDeArmas(final String nome, final double vida, final double ataque, final double defesa) {
             super(nome, vida, ataque, defesa);
         }
 

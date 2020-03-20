@@ -1,10 +1,10 @@
 package Aula01.TemaAula01;
 
-    public class Arcano extends Personagem {
+    class Arcano extends Personagem {
 
         int mana;
 
-        public Arcano(final String nome, final double vida, final double ataque, final double defesa, int mana) {
+         Arcano(final String nome, final double vida, final double ataque, final double defesa, int mana) {
             super(nome, vida, ataque, defesa);
             this.mana = mana;
         }

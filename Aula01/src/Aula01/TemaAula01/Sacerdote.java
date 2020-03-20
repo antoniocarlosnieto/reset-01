@@ -4,7 +4,7 @@ public class Sacerdote extends Personagem {
 
     int fe;
 
-    public Sacerdote(String nome, double vida, double ataque, double defesa, int fe) {
+     Sacerdote(String nome, double vida, double ataque, double defesa, int fe) {
         super(nome, vida, ataque, defesa);
         this.fe = fe;
     }

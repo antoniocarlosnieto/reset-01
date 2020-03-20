@@ -1,5 +1,7 @@
 package Aula01.TemaAula01;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class AppRpg {
@@ -10,12 +12,18 @@ public class AppRpg {
         Guerreiro Geralt = new Guerreiro("Geralt", 300, 15, 10);
         Guerreiro GuerreiroUser = new Guerreiro("default", 0, 0, 0);
         Barbaro Dandelion = new Barbaro("Dandelion", 250, 20, 10);
+        Barbaro BarbaroUser = new Barbaro("Default", 0, 0, 0);
         // MAGICOS
         Mago Ciri = new Mago("Ciri", 500, 10, 5, 200);
+        Mago MagoUser = new Mago("default", 0, 0, 0, 0);
         Feiticeiro Yennefer = new Feiticeiro("Yennefer", 700, 10, 20, 200);
+        Feiticeiro FeiticeiroUser = new Feiticeiro("default", 0, 0, 0, 0);
         // RELIGIOSOS
         Druida Mousesack = new Druida("Mousesack", 250, 10, 20, 100);
+        Druida DruidaUser = new Druida("default", 0, 0, 0, 0);
         Clerigo Skellige = new Clerigo("Skellige", 300, 10, 20, 150);
+        Clerigo ClerigoUser = new Clerigo("default", 0, 0, 0, 0);
+
 
         // ARMAS
         Arma EspadaCurta = new Arma("Espada Curta", 5);
@@ -38,81 +46,93 @@ public class AppRpg {
         System.out.println("************* BATALHAS DE NILFGAARD *************");
         System.out.println("*************************************************");
 
-
         Scanner in = new Scanner(System.in);
-        System.out.println("Crie seu próprio herói!");
-        System.out.println("Primeiro, escolha a classe do personagem:");
-        System.out.println("G - Guerreiro");
-        System.out.println("B - Bárbaro");
-        System.out.println("C - Clérigo");
-        System.out.println("D - Druida");
-        System.out.println("M - Mago");
-        System.out.println("F - Feiticeiro");
+        int userInicial = 0;
+        System.out.println("Crie seus próprios heróis!");
+        System.out.println("Com quantos personagens deseja jogar?");
+        int userFinal = in.nextInt();
 
-        System.out.print("Tipo: ");
-        char tipo = in.next().charAt(0);
-        System.out.print("Nome: ");
-        String nome = in.next();
-        System.out.print("Vida: ");
-        double vida = in.nextDouble();
-        System.out.print("Ataque: ");
-        double ataque = in.nextDouble();
-        System.out.print("Defesa: ");
-        double defesa = in.nextDouble();
+        while (userInicial < userFinal) {
 
-        int fe;
-        int mana;
+            //Scanner in = new Scanner(System.in);
+            System.out.println("Primeiro, escolha a classe do personagem:");
+            System.out.println("G - Guerreiro");
+            System.out.println("B - Bárbaro");
+            System.out.println("C - Clérigo");
+            System.out.println("D - Druida");
+            System.out.println("M - Mago");
+            System.out.println("F - Feiticeiro");
 
-        switch (tipo) {
-            case 'G':
-                System.out.println("Criando guerreiro...");
-                Guerreiro GuerreiroConsole = new Guerreiro(nome, vida, ataque, defesa);
-                GuerreiroUser = GuerreiroConsole;
-                GuerreiroConsole.imprimirEstado();
-                GuerreiroUser.imprimirEstado();
-                break;
+            System.out.print("Tipo: ");
+            char tipo = in.next().charAt(0);
+            System.out.print("Nome: ");
+            String nome = in.next();
+            System.out.print("Vida: ");
+            double vida = in.nextDouble();
+            System.out.print("Ataque: ");
+            double ataque = in.nextDouble();
+            System.out.print("Defesa: ");
+            double defesa = in.nextDouble();
 
-            case 'B':
-                System.out.println("Criando bárbaro...");
-                Barbaro BarbaroConsole = new Barbaro(nome, vida, ataque, defesa);
-                BarbaroConsole.imprimirEstado();
-                break;
+            int fe;
+            int mana;
 
-            case 'C':
-                System.out.print("Fé: ");
-                fe = in.nextInt();
+            switch (tipo) {
+                case 'G':
+                    System.out.println("Criando guerreiro...");
+                    Guerreiro GuerreiroConsole = new Guerreiro(nome, vida, ataque, defesa);
+                    GuerreiroUser = GuerreiroConsole;
+                    GuerreiroUser.imprimirEstado();
+                    break;
 
-                System.out.println("Criando clérigo...");
-                Clerigo ClerigoConsole = new Clerigo(nome, vida, ataque, defesa, fe);
-                ClerigoConsole.imprimirEstado();
-                break;
+                case 'B':
+                    System.out.println("Criando bárbaro...");
+                    Barbaro BarbaroConsole = new Barbaro(nome, vida, ataque, defesa);
+                    BarbaroUser = BarbaroConsole;
+                    BarbaroConsole.imprimirEstado();
+                    break;
 
-            case 'D':
-                System.out.print("Fé: ");
-                fe = in.nextInt();
+                case 'C':
+                    System.out.print("Fé: ");
+                    fe = in.nextInt();
 
-                System.out.println("Criando druida...");
-                Druida DruidaConsole = new Druida(nome, vida, ataque, defesa, fe);
-                DruidaConsole.imprimirEstado();
-                break;
+                    System.out.println("Criando clérigo...");
+                    Clerigo ClerigoConsole = new Clerigo(nome, vida, ataque, defesa, fe);
+                    ClerigoUser = ClerigoConsole;
+                    ClerigoConsole.imprimirEstado();
+                    break;
 
-            case 'M':
-                System.out.print("Mana: ");
-                mana = in.nextInt();
+                case 'D':
+                    System.out.print("Fé: ");
+                    fe = in.nextInt();
 
-                System.out.println("Criando mago...");
-                Mago MagoConsole = new Mago(nome, vida, ataque, defesa, mana);
-                MagoConsole.imprimirEstado();
-                break;
+                    System.out.println("Criando druida...");
+                    Druida DruidaConsole = new Druida(nome, vida, ataque, defesa, fe);
+                    DruidaUser = DruidaConsole;
+                    DruidaConsole.imprimirEstado();
+                    break;
 
-            case 'F':
-                System.out.print("Mana: ");
-                mana = in.nextInt();
+                case 'M':
+                    System.out.print("Mana: ");
+                    mana = in.nextInt();
 
-                System.out.println("Criando feiticeiro...");
-                Feiticeiro FeiticeiroUser = new Feiticeiro(nome, vida, ataque, defesa, mana);
-                FeiticeiroUser.imprimirEstado();
-                break;
+                    System.out.println("Criando mago...");
+                    Mago MagoConsole = new Mago(nome, vida, ataque, defesa, mana);
+                    MagoUser = MagoConsole;
+                    MagoConsole.imprimirEstado();
+                    break;
+
+                case 'F':
+                    System.out.print("Mana: ");
+                    mana = in.nextInt();
+
+                    System.out.println("Criando feiticeiro...");
+                    Feiticeiro FeiticeiroConsole = new Feiticeiro(nome, vida, ataque, defesa, mana);
+                    FeiticeiroUser = FeiticeiroConsole;
+                    FeiticeiroUser.imprimirEstado();
+                    break;
+            }
+        userInicial ++;
         }
 
 
@@ -122,17 +142,17 @@ public class AppRpg {
 
         GuerreiroUser.atacar(Geralt, EspadaLonga);
         Geralt.atacar(GuerreiroUser, Machado);
-        /*Geralt.atacar(Skellige, EspadaLonga);
+        Geralt.atacar(MagoUser, EspadaLonga);
         Ciri.atacar(Mousesack, FireBolt);
         Ciri.atacar(Dandelion, DeepIce);
-        Yennefer.atacar(Geralt, FireBolt);
+        MagoUser.atacar(Geralt, FireBolt);
         Yennefer.atacar(Ciri, DeepIce);
-        Mousesack.atacar(Dandelion, SacredWhisper);
+        ClerigoUser.atacar(Dandelion, SacredWhisper);
         Mousesack.atacar(Ciri, JumpOfFaith);
         Skellige.atacar(Yennefer, SacredWhisper);
-        Skellige.atacar(Mousesack, JumpOfFaith);
+        Skellige.atacar(DruidaUser, JumpOfFaith);
         Dandelion.atacar(Geralt, EspadaLonga);
-        */
+
 
         //Estados
         Dandelion.imprimirEstado();
@@ -148,7 +168,7 @@ public class AppRpg {
 
     }
 
-/*
+/*      ******** CÓDIGO ANTIGO *******
        //Combates
         Geralt.atacar(Yennefer, Machado);
         Geralt.atacar(Skellige, EspadaLonga);

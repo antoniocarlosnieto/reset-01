@@ -2,7 +2,7 @@ package Aula01.TemaAula01;
 
 public class Druida extends Sacerdote {
 
-    public Druida(final String nome, final double vida, final double ataque, final double defesa, final int fe) {
+    Druida(final String nome, final double vida, final double ataque, final double defesa, final int fe) {
         super(nome, vida, ataque, defesa, fe);
     }
 }
