@@ -10,19 +10,13 @@ public class AppRpg {
 
         // LUTADORES,
         Guerreiro Geralt = new Guerreiro("Geralt", 300, 15, 10);
-        Guerreiro GuerreiroUser = new Guerreiro("default", 0, 0, 0);
         Barbaro Dandelion = new Barbaro("Dandelion", 250, 20, 10);
-        Barbaro BarbaroUser = new Barbaro("Default", 0, 0, 0);
         // MAGICOS
         Mago Ciri = new Mago("Ciri", 500, 10, 5, 200);
-        Mago MagoUser = new Mago("default", 0, 0, 0, 0);
         Feiticeiro Yennefer = new Feiticeiro("Yennefer", 700, 10, 20, 200);
-        Feiticeiro FeiticeiroUser = new Feiticeiro("default", 0, 0, 0, 0);
         // RELIGIOSOS
         Druida Mousesack = new Druida("Mousesack", 250, 10, 20, 100);
-        Druida DruidaUser = new Druida("default", 0, 0, 0, 0);
         Clerigo Skellige = new Clerigo("Skellige", 300, 10, 20, 150);
-        Clerigo ClerigoUser = new Clerigo("default", 0, 0, 0, 0);
 
 
         // ARMAS
@@ -46,13 +40,21 @@ public class AppRpg {
         System.out.println("************* BATALHAS DE NILFGAARD *************");
         System.out.println("*************************************************");
 
-        Scanner in = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         int userInicial = 0;
         System.out.println("Crie seus próprios heróis!");
         System.out.println("Com quantos personagens deseja jogar?");
-        int userFinal = in.nextInt();
+        int usersTotal = scanner.nextInt();
 
-        while (userInicial < userFinal) {
+        List<Guerreiro> guerreiros = new ArrayList<>();
+        List<Barbaro> barbaros = new ArrayList<>();
+        List<Clerigo> clerigos = new ArrayList<>();
+        List<Druida> druidas = new ArrayList<>();
+        List<Mago> magos = new ArrayList<>();
+        List<Feiticeiro> feiticeiros = new ArrayList<>();
+
+
+        for (userInicial = 0; userInicial < usersTotal; userInicial++ ) {
 
             //Scanner in = new Scanner(System.in);
             System.out.println("Primeiro, escolha a classe do personagem:");
@@ -64,15 +66,15 @@ public class AppRpg {
             System.out.println("F - Feiticeiro");
 
             System.out.print("Tipo: ");
-            char tipo = in.next().charAt(0);
+            char tipo = scanner.next().charAt(0);
             System.out.print("Nome: ");
-            String nome = in.next();
+            String nome = scanner.next();
             System.out.print("Vida: ");
-            double vida = in.nextDouble();
+            double vida = scanner.nextDouble();
             System.out.print("Ataque: ");
-            double ataque = in.nextDouble();
+            double ataque = scanner.nextDouble();
             System.out.print("Defesa: ");
-            double defesa = in.nextDouble();
+            double defesa = scanner.nextDouble();
 
             int fe;
             int mana;
@@ -80,59 +82,59 @@ public class AppRpg {
             switch (tipo) {
                 case 'G':
                     System.out.println("Criando guerreiro...");
-                    Guerreiro GuerreiroConsole = new Guerreiro(nome, vida, ataque, defesa);
-                    GuerreiroUser = GuerreiroConsole;
-                    GuerreiroUser.imprimirEstado();
+                    Guerreiro guerreiro = new Guerreiro(nome, vida, ataque, defesa);
+                    guerreiros.add(guerreiro);
+                    guerreiro.imprimirEstado();
                     break;
 
                 case 'B':
                     System.out.println("Criando bárbaro...");
-                    Barbaro BarbaroConsole = new Barbaro(nome, vida, ataque, defesa);
-                    BarbaroUser = BarbaroConsole;
-                    BarbaroConsole.imprimirEstado();
+                    Barbaro barbaro = new Barbaro(nome, vida, ataque, defesa);
+                    barbaros.add(barbaro);
+                    barbaro.imprimirEstado();
                     break;
 
                 case 'C':
                     System.out.print("Fé: ");
-                    fe = in.nextInt();
+                    fe = scanner.nextInt();
 
                     System.out.println("Criando clérigo...");
-                    Clerigo ClerigoConsole = new Clerigo(nome, vida, ataque, defesa, fe);
-                    ClerigoUser = ClerigoConsole;
-                    ClerigoConsole.imprimirEstado();
+                    Clerigo clerigo = new Clerigo(nome, vida, ataque, defesa, fe);
+                    clerigos.add(clerigo);
+                    clerigo.imprimirEstado();
                     break;
 
                 case 'D':
                     System.out.print("Fé: ");
-                    fe = in.nextInt();
+                    fe = scanner.nextInt();
 
                     System.out.println("Criando druida...");
-                    Druida DruidaConsole = new Druida(nome, vida, ataque, defesa, fe);
-                    DruidaUser = DruidaConsole;
-                    DruidaConsole.imprimirEstado();
+                    Druida druida = new Druida(nome, vida, ataque, defesa, fe);
+                    druidas.add(druida);
+                    druida.imprimirEstado();
                     break;
 
                 case 'M':
                     System.out.print("Mana: ");
-                    mana = in.nextInt();
+                    mana = scanner.nextInt();
 
                     System.out.println("Criando mago...");
-                    Mago MagoConsole = new Mago(nome, vida, ataque, defesa, mana);
-                    MagoUser = MagoConsole;
-                    MagoConsole.imprimirEstado();
+                    Mago mago = new Mago(nome, vida, ataque, defesa, mana);
+                    magos.add(mago);
+                    mago.imprimirEstado();
                     break;
 
                 case 'F':
                     System.out.print("Mana: ");
-                    mana = in.nextInt();
+                    mana = scanner.nextInt();
 
                     System.out.println("Criando feiticeiro...");
-                    Feiticeiro FeiticeiroConsole = new Feiticeiro(nome, vida, ataque, defesa, mana);
-                    FeiticeiroUser = FeiticeiroConsole;
-                    FeiticeiroUser.imprimirEstado();
+                    Feiticeiro feiticeiro = new Feiticeiro(nome, vida, ataque, defesa, mana);
+                    feiticeiros.add(feiticeiro);
+                    feiticeiro.imprimirEstado();
                     break;
             }
-        userInicial ++;
+
         }
 
 
@@ -140,30 +142,49 @@ public class AppRpg {
 
         //Combates
 
-        GuerreiroUser.atacar(Geralt, EspadaLonga);
-        Geralt.atacar(GuerreiroUser, Machado);
-        Geralt.atacar(MagoUser, EspadaLonga);
+
+        if (guerreiros.size() > 0){
+            guerreiros.get(0).atacar(Geralt,EspadaCurta);
+        }
         Ciri.atacar(Mousesack, FireBolt);
         Ciri.atacar(Dandelion, DeepIce);
-        MagoUser.atacar(Geralt, FireBolt);
+        if (magos.size() > 0){
+            magos.get(0).atacar(Geralt,FireBolt);
+        }
         Yennefer.atacar(Ciri, DeepIce);
-        ClerigoUser.atacar(Dandelion, SacredWhisper);
         Mousesack.atacar(Ciri, JumpOfFaith);
         Skellige.atacar(Yennefer, SacredWhisper);
-        Skellige.atacar(DruidaUser, JumpOfFaith);
         Dandelion.atacar(Geralt, EspadaLonga);
 
 
+
+
         //Estados
+        System.out.println("***************Estatisticas****************");
         Dandelion.imprimirEstado();
         Geralt.imprimirEstado();
         Ciri.imprimirEstado();
         Yennefer.imprimirEstado();
         Mousesack.imprimirEstado();
         Skellige.imprimirEstado();
-        GuerreiroUser.imprimirEstado();
-
-
+        for (int i = 0; i < guerreiros.size(); i++) {
+            System.out.println("Nome: " + guerreiros.get(i).nome + " | Vida: " + guerreiros.get(i).vida);
+        }
+        for (int i = 0; i < barbaros.size(); i++) {
+            System.out.println("Nome: " + barbaros.get(i).nome + " | Vida: " + barbaros.get(i).vida);
+        }
+        for (int i = 0; i < clerigos.size(); i++) {
+            System.out.println("Nome: " + clerigos.get(i).nome + " | Vida: " + clerigos.get(i).vida);
+        }
+        for (int i = 0; i < druidas.size(); i++) {
+            System.out.println("Nome: " + druidas.get(i).nome + " | Vida: " + druidas.get(i).vida);
+        }
+        for (int i = 0; i < magos.size(); i++) {
+            System.out.println("Nome: " + magos.get(i).nome + " | Vida: " + magos.get(i).vida);
+        }
+        for (int i = 0; i < feiticeiros.size(); i++) {
+            System.out.println("Nome: " + feiticeiros.get(i).nome + " | Vida: " + feiticeiros.get(i).vida);
+        }
 
 
     }

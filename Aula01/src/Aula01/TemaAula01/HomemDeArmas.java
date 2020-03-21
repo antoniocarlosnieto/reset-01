@@ -2,7 +2,9 @@ package Aula01.TemaAula01;
 
     public class HomemDeArmas extends Personagem {
 
-         HomemDeArmas(final String nome, final double vida, final double ataque, final double defesa) {
+        protected Arma arma;
+
+        HomemDeArmas(final String nome, final double vida, final double ataque, final double defesa) {
             super(nome, vida, ataque, defesa);
         }
 
@@ -11,7 +13,6 @@ package Aula01.TemaAula01;
         }
 
         void atacar(Personagem alvo, Arma arma) {
-
             if (vida <= 0) {
                 System.out.println(nome + " Não pôde atacar pois já morreu...");
             } else {
@@ -23,5 +24,11 @@ package Aula01.TemaAula01;
                 }
             }
         }
+
+        public void equipar (Arma arma){
+             this.arma = arma;
+        }
+
+
     }
 
