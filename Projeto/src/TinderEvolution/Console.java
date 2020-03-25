@@ -9,6 +9,7 @@ public class Console {
 
         MenuMusica menuMusica = new MenuMusica();
         MenuUsuario menuUsuario = new MenuUsuario();
+        MenuFilme menuFilme = new MenuFilme();
 
         Scanner scanner = new Scanner(System.in);
         char opcao = ' ';
@@ -19,6 +20,7 @@ public class Console {
             System.out.println("Escolha uma das opções:");
             System.out.println("[U] para Usuarios;");
             System.out.println("[M] para Musicas;");
+            System.out.println("[F] para Filmes;");
             System.out.println("[X} para encerrar;");
             System.out.print(":>");
             opcao = scanner.next().charAt(0);
@@ -32,6 +34,11 @@ public class Console {
                 case 'M':
                     System.out.println("Redirecionando para Menu de Músicas...");
                     menuMusica.opcoes();
+                    break;
+
+                case 'F':
+                    System.out.println("Redirecionando para Menu de Músicas...");
+                    menuFilme.opcoes();
                     break;
 
                 case 'X':
