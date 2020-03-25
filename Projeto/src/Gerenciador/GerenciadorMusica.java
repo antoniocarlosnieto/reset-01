@@ -15,11 +15,12 @@ public class GerenciadorMusica {
         List<Musica> musicas = acervo.listar();
 
         for (Musica musicaExistente : musicas) {
+            //Validando se Ela ja existe
             if (musica.getNome().equals(musicaExistente.getNome())) {
                 return musicaExistente;
             }
         }
-
+        //Validando a data
         if (musica.getLancamento().isAfter(LocalDate.now())) {
             return null;
         }
