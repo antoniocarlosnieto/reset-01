@@ -41,4 +41,15 @@ public class AcervoMusica {
 
         return false;
     }
+
+    public Musica editar(final Musica musicaParaEditar, final Musica musicaAtualizada) {
+
+        musicaParaEditar.setNome(musicaAtualizada.getNome());
+        musicaParaEditar.setArtista(musicaAtualizada.getAutor());
+        musicaParaEditar.setLancamento(musicaAtualizada.getLancamento());
+        musicaParaEditar.setEstiloMusical(musicaAtualizada.getEstiloMusical());
+
+        return musicaParaEditar;
+
+    }
 }

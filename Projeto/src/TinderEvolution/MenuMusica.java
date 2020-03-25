@@ -28,8 +28,9 @@ public class MenuMusica {
             System.out.println("* Menu de Musicas *");
             System.out.println("Selecione a opção desejada:");
             System.out.println("[C] - Criar novo Registro;");
-            System.out.println("[L] - Gerar lista das Músicas;");
-            System.out.println("[P] - Procurar Música;");
+            System.out.println("[E] - Editar dados de uma Música;");
+            System.out.println("[L] - Listar todas as Músicas;");
+            System.out.println("[P] - Procurar por uma Música Específica;");
             System.out.println("[D] - Deletar Musica;");
             System.out.println("[X] - Voltar para o Menu Anterior;");
             System.out.println(":>");
@@ -39,6 +40,8 @@ public class MenuMusica {
                 case 'C':
                     criar();
                     break;
+                case 'E':
+                    editar();
                 case 'L':
                     listar();
                     break;
@@ -109,6 +112,82 @@ public class MenuMusica {
 
         Musica musica = new Musica(nome, autor, LocalDate.of(ano, mes, dia), estiloMusical);
         gerenciador.salvar(musica);
+
+    }
+
+    public void editar() {
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Edição de Música...");
+        System.out.println("Qual música deseja editar?");
+
+        List<Musica> musicas = gerenciador.listar();
+        for (Musica musica : musicas) {
+            System.out.println("[" + musica.getId() + "] - " + musica.getNome());
+        }
+
+        System.out.print("> ");
+        int id = scanner.nextInt();
+
+        System.out.print("Nome: ");
+        String nome = scanner.next();
+
+        System.out.print("Autor: ");
+        String autor = scanner.next();
+
+        System.out.print("Ano de Lançamento: ");
+        int ano = scanner.nextInt();
+
+        System.out.print("Mês de Lançamento: ");
+        int mes = scanner.nextInt();
+
+        System.out.print("Dia de Lançamento: ");
+        int dia = scanner.nextInt();
+
+        System.out.println("Estilo: ");
+        System.out.println("[ F ] FUNK");
+        System.out.println("[ P ] PAGODE");
+        System.out.println("[ R ] ROCK");
+        System.out.println("[ I ] INDIE");
+        System.out.println("[ S ] SERTANEJO");
+        System.out.println("[ M ] METAL");
+        System.out.print("> ");
+        String estilo = scanner.next();
+
+        EstiloMusical estiloMusical;
+        switch (estilo) {
+            case "F":
+                estiloMusical = EstiloMusical.FUNK;
+                break;
+            case "P":
+                estiloMusical = EstiloMusical.PAGODE;
+                break;
+            case "R":
+                estiloMusical = EstiloMusical.ROCK;
+                break;
+            case "I":
+                estiloMusical = EstiloMusical.INDIE;
+                break;
+            case "S":
+                estiloMusical = EstiloMusical.SERTANEJO;
+                break;
+            case "M":
+                estiloMusical = EstiloMusical.METAL;
+                break;
+            default:
+                estiloMusical = EstiloMusical.FUNK;
+                break;
+        }
+
+        Musica atualizacao = new Musica(nome, autor, LocalDate.of(ano, mes, dia), estiloMusical);
+
+        Musica musicaAtualizada = gerenciador.editar(id, atualizacao);
+
+        if (musicaAtualizada == null) {
+            System.out.println("Música não encontrada.");
+        } else {
+            System.out.println(musicaAtualizada);
+        }
 
     }
 

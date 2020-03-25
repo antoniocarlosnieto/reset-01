@@ -46,6 +46,14 @@ public class Musica {
         this.autor = autor;
     }
 
+    public EstiloMusical getEstiloMusical() {
+        return estiloMusical;
+    }
+
+    public void setEstiloMusical(final EstiloMusical estiloMusical) {
+        this.estiloMusical = estiloMusical;
+    }
+
     public LocalDate getLancamento() {
         return lancamento;
     }

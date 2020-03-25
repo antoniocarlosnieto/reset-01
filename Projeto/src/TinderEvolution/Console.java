@@ -8,6 +8,7 @@ public class Console {
     public static void main(String[] args) {
 
         MenuMusica menuMusica = new MenuMusica();
+        MenuUsuario menuUsuario = new MenuUsuario();
 
         Scanner scanner = new Scanner(System.in);
         char opcao = ' ';
@@ -16,12 +17,18 @@ public class Console {
 
             System.out.println("* Seja bem vindo ao Tinder Evolution!!! *");
             System.out.println("Escolha uma das opções:");
+            System.out.println("[U] para Usuarios;");
             System.out.println("[M] para Musicas;");
             System.out.println("[X} para encerrar;");
             System.out.print(":>");
             opcao = scanner.next().charAt(0);
 
             switch (opcao) {
+                case 'U':
+                    System.out.println("Redirecionando para Menu de Usuários...");
+                    menuUsuario.opcoes();
+                    break;
+
                 case 'M':
                     System.out.println("Redirecionando para Menu de Músicas...");
                     menuMusica.opcoes();
