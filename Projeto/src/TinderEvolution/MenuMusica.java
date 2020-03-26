@@ -83,7 +83,8 @@ public class MenuMusica {
         System.out.println("[S] - Sertanejo");
         System.out.println("[M] - Metal");
         System.out.print(":>");
-        String estilo = scanner.next();
+        String estilo = scanner.nextLine();
+        scanner.nextLine();
 
         EstiloMusical estiloMusical;
         switch (estilo) {
@@ -152,7 +153,8 @@ public class MenuMusica {
         System.out.println("[ S ] SERTANEJO");
         System.out.println("[ M ] METAL");
         System.out.print("> ");
-        String estilo = scanner.next();
+        String estilo = scanner.nextLine();
+        scanner.nextLine();
 
         EstiloMusical estiloMusical;
         switch (estilo) {
