@@ -11,6 +11,11 @@ public class Console {
         MenuUsuario menuUsuario = new MenuUsuario();
         MenuFilme menuFilme = new MenuFilme();
         MenuSerie menuSerie = new MenuSerie();
+        MenuJogo menuJogo = new MenuJogo();
+        MenuEsporte menuEsporte = new MenuEsporte();
+        MenuCuriosidade menuCuriosidade = new MenuCuriosidade();
+
+
 
         Scanner scanner = new Scanner(System.in);
         char opcao = ' ';
@@ -23,6 +28,9 @@ public class Console {
             System.out.println("[M] para Musicas;");
             System.out.println("[F] para Filmes;");
             System.out.println("[S] para Series;");
+            System.out.println("[J] para Jogos;");
+            System.out.println("[E] para Esportes;");
+            System.out.println("[C] para Curiosidades;");
             System.out.println("[X} para Encerrar;");
             System.out.print(":>");
             opcao = scanner.next().charAt(0);
@@ -46,6 +54,21 @@ public class Console {
                 case 'S':
                     System.out.println("Redirecionando para Menu de Series...");
                     menuSerie.opcoes();
+                    break;
+
+                case 'J':
+                    System.out.println("Redirecionando para Menu de Jogos...");
+                    menuJogo.opcoes();
+                    break;
+
+                case 'E':
+                    System.out.println("Redirecionando para Menu de Esportes...");
+                    menuEsporte.opcoes();
+                    break;
+
+                case 'C':
+                    System.out.println("Redirecionando para Menu de Curiosidades...");
+                    menuCuriosidade.opcoes();
                     break;
 
                 case 'X':

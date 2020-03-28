@@ -1,10 +1,6 @@
 package TinderEvolution;
 
 
-//import Construtor.CategoriaFilme;
-//import Construtor.Filme;
-//import Gerenciador.GerenciadorFilme;
-
 import Construtor.CategoriaSerie;
 import Construtor.Serie;
 import Gerenciador.GerenciadorSerie;

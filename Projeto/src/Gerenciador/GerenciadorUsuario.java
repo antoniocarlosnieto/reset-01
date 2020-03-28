@@ -20,10 +20,7 @@ public class GerenciadorUsuario {
                 return usuarioExistente;
             }
         }
-        //Validando a data
-        //if (usuario.getLancamento().isAfter(LocalDate.now())) {
-           // return null;
-        //}
+
 
         return acervo.salvar(usuario);
     }

@@ -82,30 +82,6 @@ public class MenuUsuario {
         System.out.println("Longitude");
         String longitude = scanner.next();
 
-//        EstiloMusical estiloMusical;
-//        switch (estilo) {
-//            case "F":
-//                estiloMusical = EstiloMusical.FUNK;
-//                break;
-//            case "P":
-//                estiloMusical = EstiloMusical.PAGODE;
-//                break;
-//            case "R":
-//                estiloMusical = EstiloMusical.ROCK;
-//                break;
-//            case "I":
-//                estiloMusical = EstiloMusical.INDIE;
-//                break;
-//            case "S":
-//                estiloMusical = EstiloMusical.SERTANEJO;
-//                break;
-//            case "M":
-//                estiloMusical = EstiloMusical.METAL;
-//                break;
-//            default:
-//                estiloMusical = EstiloMusical.FUNK;
-//                break;
-//        }
 
         Usuario usuario = new Usuario(nome, email, LocalDate.of(ano, mes, dia), telefone, bio, latitude, longitude);
         gerenciador.salvar(usuario);
@@ -145,31 +121,6 @@ public class MenuUsuario {
         System.out.println("Longitude");
         String longitude = scanner.next();
 
-//
-//        EstiloMusical estiloMusical;
-//        switch (estilo) {
-//            case "F":
-//                estiloMusical = EstiloMusical.FUNK;
-//                break;
-//            case "P":
-//                estiloMusical = EstiloMusical.PAGODE;
-//                break;
-//            case "R":
-//                estiloMusical = EstiloMusical.ROCK;
-//                break;
-//            case "I":
-//                estiloMusical = EstiloMusical.INDIE;
-//                break;
-//            case "S":
-//                estiloMusical = EstiloMusical.SERTANEJO;
-//                break;
-//            case "M":
-//                estiloMusical = EstiloMusical.METAL;
-//                break;
-//            default:
-//                estiloMusical = EstiloMusical.FUNK;
-//                break;
-//        }
 
         Usuario atualizacao = new Usuario(nome, email, LocalDate.of(ano, mes, dia), telefone, bio, latitude, longitude);
 

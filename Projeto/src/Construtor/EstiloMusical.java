@@ -8,6 +8,6 @@ public enum EstiloMusical {
     SERTANEJO,
     METAL;
 
-    //{ funk | pagode | rock | indie | sertanejo | metal }
+
 
 }
